@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="toolbar:org.eclipse.ui.main.toolbar">
+         <toolbar
+               id="de.yatta.demo.jaxenter.openwikibar">
+            <command
+                  commandId="de.yatta.demo.jaxenter.openDevWikiCommand"
+                  label="Open Development Wiki"
+                  style="push">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="de.yatta.demo.jaxenter.OpenWikiCommand"
+            id="de.yatta.demo.jaxenter.openDevWikiCommand"
+            name="openWikiCommand">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="de.yatta.demo.jaxenter.WikiView"
+            id="de.yatta.demo.jaxenter.wikiview"
+            name="Development - Wiki"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>
