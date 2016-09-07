@@ -4,7 +4,7 @@ This project contains the Source Code for the JAXenter Article at <link>. It giv
 
 ### Test it with Yatta Profiles for Eclipse
 
-With the Yatta Launcher for Eclipse you can download a ready-to-use Eclipse setup at .... You only need a few clicks to get started. After the Yatta Launcher has configured your newly installed Eclipse, use 'Run as &rarr; Eclipse Application' from the context-menu of the _de.yatta.demo.jaxenter_ project to start your demo Eclipse Runtime.
+With the Yatta Launcher for Eclipse you can download a ready-to-use Eclipse setup [here](https://www.yatta.de/profiles/hub/7CH9). You only need a few clicks to get started. After the Yatta Launcher has configured your newly installed Eclipse, use 'Run as &rarr; Eclipse Application' from the context-menu of the _de.yatta.demo.jaxenter_ project to start your demo Eclipse Runtime.
 
 ##### Alternative: Import directly into Eclipse workspace
 
